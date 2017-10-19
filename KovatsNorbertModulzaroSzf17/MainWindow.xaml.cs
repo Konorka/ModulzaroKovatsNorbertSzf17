@@ -90,11 +90,11 @@ namespace KovatsNorbertModulzaroSzf17
             };
             form.ShowDialog();
         }
-        public static IEnumerable<Patient> patientSum (IEnumerable<Patient> patient)
-        {
+        //public static IEnumerable<Patient> patientSum (IEnumerable<Patient> patient)
+        //{
 
-            return patient.Sum(x => x.Name);
-        }
+        //    return patient.Sum(x => x.Name);
+        //}
 
         private void StatClick(object sender, RoutedEventArgs e)
         {
